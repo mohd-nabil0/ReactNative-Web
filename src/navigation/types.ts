@@ -4,9 +4,12 @@ import { StackNavigationProp } from '@react-navigation/stack';
 // Type for root navigation stacks
 export type RootStackParamList = {
   RootStack: undefined,
+  HomeStack: undefined,
   ScreenOne: undefined;
   ScreenTwo: undefined;
   ScreenThree: undefined;
+  ScreenFour: undefined;
+  ScreenFive: undefined;
 };
 
 export type ScreenStackComponent<

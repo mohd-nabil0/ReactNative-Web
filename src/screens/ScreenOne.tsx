@@ -32,12 +32,12 @@ const ScreenOne = ({navigation}: IProps) => {
           text="Show Modal"
         />
         <AppButton
-          onPress={() => navigation.navigate('ScreenTwo')}
-          text="Navigate To Screen Two"
+          onPress={() => navigation.navigate('ScreenFour')}
+          text="Navigate To Screen Four"
         />
         <AppButton
-          onPress={() => navigation.navigate('ScreenThree')}
-          text="Replace With Screen Three"
+          onPress={() => navigation.navigate('ScreenFive')}
+          text="Replace With Screen Five"
         />
       </SafeAreaView>
     </View>
