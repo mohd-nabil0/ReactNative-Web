@@ -10,6 +10,7 @@ export type RootStackParamList = {
   ScreenThree: undefined;
   ScreenFour: undefined;
   ScreenFive: undefined;
+  'HomeStack/ScreenOne': undefined;
 };
 
 export type ScreenStackComponent<
